@@ -1,0 +1,25 @@
+//Imports
+@import 'base.scss';
+@import 'mixins.scss';
+@import 'breakpoint.scss';
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('https://fonts.googleapis.com/css?family=Rubik');
+}
+
+body {
+    color: $base-text;
+    background-color: $main-bg;
+    font-family: 'Rubik', sans-serif;
+}
+
+#app {
+    @include flex-col;
+    justify-content: center;
+    align-items: center;
+     margin-inline: auto;
+    @include lg {
+        height: 100vh;
+    }
+}

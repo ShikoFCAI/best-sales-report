@@ -1,0 +1,23 @@
+@mixin flex-col($gap: 0px) {
+    display: flex;
+    flex-direction: column;
+    gap: $gap;
+}
+
+@mixin flex-row($gap: 0px) {
+    display: flex;
+    flex-direction: row;
+    gap: $gap;
+}
+
+@mixin max-card-width {
+
+    @include lg {
+        max-width: $lg-card-width;
+    }
+}
+
+@mixin card-generic($bg-color: $card-primary) {
+    border-radius: $base-border-radius;
+    background-color: $bg-color;
+}

@@ -1,0 +1,29 @@
+//Base values
+$main-bg: #0E1323;
+$base-text: white;
+$secondary-text: #BBC0FF;
+$base-border-radius: 15px;
+
+//Cards 
+$card-primary: #1C204B;
+$card-secondary: #5747EA;
+
+$sm-card-width: 327px;
+$lg-card-width: 255px;
+
+$frame-colors: (
+    "orange": #FF8B64,
+    "cyan": #55C2E6,
+    "red": #FF5E7D,
+    "green": #4BCF82,
+    "purple": #7335D2,
+    "yellow": #F1C75B,
+);
+
+.two-line-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
