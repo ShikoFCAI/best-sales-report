@@ -7,9 +7,7 @@ const props = defineProps({
     entry: Object,
 })
 
-console.log(props.entry);
 const frameClass = ref("frame-" + props.color)
-
 </script>
 
 <template>

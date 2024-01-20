@@ -37,7 +37,6 @@ onMounted(async () => {
         display: grid;
         grid-template-rows: repeat(2, minmax(0, 1fr));
         grid-template-columns: repeat(5, minmax(0, 1fr));
-        overflow-x: scroll;
     }
 
     .card {

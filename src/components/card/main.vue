@@ -68,7 +68,7 @@
     @include flex-row;
     @include card-generic;
     justify-content: space-between;
-    padding: 40px 20px 33px;
+    padding: 45px 20px 33px;
     font-size: 18px;
     color: #7078C9;
 
@@ -77,7 +77,6 @@
     position: relative;
 
     @include lg {
-        min-width: 215px;
         @include flex-col(21px);
     }
 }
